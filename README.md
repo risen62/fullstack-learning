@@ -1,25 +1,51 @@
-# fullstack-learning
+# Full Stack Learning
 
-A collection of my web development projects. Each imported project is stored in its own folder and can be run independently.
+My web development practice collection: from HTML and CSS pages to interactive JavaScript games, Express servers, EJS templates, and API requests.
 
-The existing project in the repository root is preserved. See each project folder for its source files, dependencies, and any project-specific instructions.
+## Start here
 
-## Projects
+| Project | What it practices |
+| --- | --- |
+| [HTML portfolio](html-portfolio/) and [HTML resume](My-Resume/) | Page structure, links, images, and semantic HTML |
+| [Dice Game](Dice-Game/) | Random numbers and DOM updates |
+| [Drum Game](Drum-Game/) | Keyboard and click events, audio |
+| [Simon Game](Simon-Game/) | Sequences, game state, and event handling |
+| [Calculator](Calculator/) | Interactive controls and JavaScript logic |
+| [Activity generator](Bored-Activity-Generator-backend-/) | Express, EJS, and API-driven pages |
+| [API authentication](API-Authentication-Exercise/) | API requests and authentication exercises |
 
-| Folder | Original repository | Imported commit |
-| --- | --- | --- |
-| [API-Authentication-Exercise](./API-Authentication-Exercise/) | [Source](https://github.com/risen62/API-Authentication-Exercise) | e9e6e05e9506b20fe5de0977647be9c43d2f6073 |
-| [Bored-Activity-Generator-backend-](./Bored-Activity-Generator-backend-/) | [Source](https://github.com/risen62/Bored-Activity-Generator-backend-) | 94d416ea3e241c8c440f226a9431613a824c54dd |
-| [blog-web-app](./blog-web-app/) | [Source](https://github.com/risen62/blog-web-app) | efb11137d400c1011b84b4b7a2e0935c94aa906e |
-| [Simon-Game](./Simon-Game/) | [Source](https://github.com/risen62/Simon-Game) | ff6957b7c8e48152ace8622c54b2191568e6f9cd |
-| [My-Portfolio](./My-Portfolio/) | [Source](https://github.com/risen62/My-Portfolio) | 437e5bd1f4b9d9b3bce178e85ccfc7e1bcf0bd34 |
-| [Calculator](./Calculator/) | [Source](https://github.com/risen62/Calculator) | 9d4051a1d6ea6a14da5b7f7d0f4a687d67a4fd9a |
-| [Drum-Game](./Drum-Game/) | [Source](https://github.com/risen62/Drum-Game) | 594c643a7f8b416026b1f00dd2bc37eb4e4cdccb |
-| [Dice-Game](./Dice-Game/) | [Source](https://github.com/risen62/Dice-Game) | 050723f2dde83cbb3c9674a5c43493cd2c995084 |
-| [My-Resume](./My-Resume/) | [Source](https://github.com/risen62/My-Resume) | 85c6d75becdfefc956d458fb27faa660985453cb |
-| [html-portfolio](./html-portfolio/) | [Source](https://github.com/risen62/html-portfolio) | faff183b80f20a7cae95c8a3b280d2a7a1c1c138 |
+The root files preserve the original Express/EJS secrets API exercise.
 
+## Standalone showcase projects
 
-Imported on October 14, 2026 from the default branch of each source repository. These folders contain source snapshots; the original repositories retain their commit histories.
+- [My Portfolio](https://github.com/risen62/My-Portfolio) · [Live website](https://risen62.github.io/My-Portfolio/)
+- [Blog Web App](https://github.com/risen62/blog-web-app) · CRUD with Express and EJS; see its README for demo status.
 
-Story (text chapters), neetcode-submissions- (C++ algorithm exercises), and Prosensia-Internship (Python fundamentals) are outside this web development collection.
+![Portfolio showcase preview](https://raw.githubusercontent.com/risen62/My-Portfolio/main/docs/preview.jpg)
+
+The image previews the standalone portfolio; this collection itself is source code, not one deployed application.
+
+## Run the exercises
+
+Clone this repository, then work inside one project folder at a time.
+
+```sh
+git clone https://github.com/risen62/fullstack-learning.git
+cd fullstack-learning
+```
+
+For static HTML/CSS/JavaScript exercises, open that folder's `index.html` in a browser, or serve the folder with your editor's local web server.
+
+For Node.js exercises, install Node.js 22, enter the relevant folder, run `npm install`, then `node index.js`. Read the source for any API configuration required by that exercise. Run one server at a time if they use the same port. API availability and credentials depend on the external service.
+
+## Learning focus
+
+HTML structure, CSS layouts, JavaScript events and state, HTTP requests, server-side rendering, and organizing independent projects with Git.
+
+## One maintained home per project
+
+**Make future changes to the eight small exercises in this repository.** Their original standalone repositories remain available as historical references and point here.
+
+**Update the portfolio and blog in their standalone repositories.** The `My-Portfolio/` and `blog-web-app/` folders here preserve the imported versions; they are not synchronized. Each contains a maintenance note linking to the active repository.
+
+[Import provenance](IMPORTS.md) records the source commits captured on October 14, 2026. Original repositories retain their own commit histories.
